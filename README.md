@@ -8,8 +8,9 @@ This repository contains a hands-on vulnerability assessment project conducted i
 
 - **Tool Used**: [Nmap](https://nmap.org/) (with `-A` flag)
 - **Platform**: Kali Linux
-- **Target**: 4 virtual machines (Windows-based)
-- **Scope**: Local subnet scanning (192.168.X.X/24)
+- **Hosts Scanned**: 4 Virtual Machines
+- **Scope**: Local subnet scanning (192.168.X.X/24) and manual enumeration of specific hosts.
+
 
 ## Nmap Scan Overview
 
