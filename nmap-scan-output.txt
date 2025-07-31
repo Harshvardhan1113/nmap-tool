@@ -1,0 +1,49 @@
+# Nmap scan report for <IP-REDACTED>
+Host is up (0.00075s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE  VERSION
+135/tcp open  msrpc    Microsoft Windows RPC
+445/tcp open  microsoft-ds  Microsoft Windows
+MAC Address: <MAC-REDACTED> (QEMU virtual NIC)
+Running: OS guess results may be unreliable...
+Aggressive OS guesses: QEMU user mode network gateway, Oracle Virtualbox, Bay Networks embedded, Allied Telesyn embedded, Samsung embedded (various), Linux (CentOS, SMP), Samsung printer, etc.
+No exact OS matches for host (test conditions non-ideal).
+
+Host script results:
+| smb2-security-mode: 
+|   3.11:
+|     Message signing enabled but not required
+| smb2-time: 
+|   date: <REDACTED>
+|   start_date: N/A
+
+TRACEROUTE
+HOP RTT  ADDRESS
+1   0.95 ms  <REDACTED>
+
+Nmap scan report for <IP-REDACTED>
+Host is up (0.00075s latency).
+All 1000 scanned ports on <IP-REDACTED> are in ignored states.
+
+# Nmap scan report for <IP-REDACTED>
+Host is up (0.00095s latency).
+PORT    STATE SERVICE  VERSION
+135/tcp open  msrpc    Microsoft Windows RPC
+445/tcp open  microsoft-ds  Microsoft Windows
+MAC Address: <MAC-REDACTED> (QEMU virtual NIC)
+Aggressive OS guesses: QEMU user mode network gateway, Oracle Virtualbox, Bay Networks, Allied Telesyn, Samsung, Linux, Dell printer, etc.
+No exact OS matches for host.
+
+Host script results:
+| smb2-time: 
+|   date: <REDACTED>
+|   start_date: N/A
+| smb2-security-mode: 
+|   3.11:
+|     Message signing enabled but not required
+
+TRACEROUTE
+HOP RTT  ADDRESS
+1   1.28 ms <REDACTED>
+
+Nmap done: <X> IP addresses (<X> hosts up) scanned.
